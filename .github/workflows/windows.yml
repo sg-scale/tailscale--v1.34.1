@@ -29,7 +29,7 @@ jobs:
         go-version-file: go.mod
 
     - name: Restore Cache
-      uses: actions/cache@v3
+      uses: actions/cache@v6
       with:
         # Note: unlike some other setups, this is only grabbing the mod download
         # cache, rather than the whole mod directory, as the download cache
